@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <title>스파르타코딩클럽 | 부트스트랩 연습하기</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Hahmlet:wght@200;400;700&display=swap" rel="stylesheet">
+
+    
+    <style>
+
+      * {
+        font-family: 'Black Han Sans', sans-serif;
+        font-family: 'Hahmlet', serif;
+        font-size: 10px;
+      }
+
+      .card-center {
+        margin: auto;
+        border: none;
+      }
+
+      .font-headline {
+        font-weight: 800;
+        font-size: 15px;
+      }
+
+      .btn-center {
+        display: block; 
+        margin: auto; 
+      }
+
+      .font-price {
+        font-weight: 600;
+        font-size: 10px;
+      }
+
+
+    </style>
+
+  </head>
+
+<body>
+  <div class="card card-center" style="width: 25rem">
+    <img class="card-img-top" src="https://cdn.imweb.me/thumbnail/20220510/c8f1d4a79ee9a.png" alt="Card image cap">
+    <div class="card-body">
+
+      <h5 class="card-title font-headline">춘천 감자빵을 팝니다 <span class="font-price">가격: 5,000원/개</span></h5>    
+      <p class="card-text">이 감자빵은 특별한 힘을 갖고 있어요. 말하는 감자같은 기분이 들 때 이 감자빵을 먹으면 자신감과 의욕을 풀충전해줍니다. 덤으로 귀엽기까지해요!</p>
+      
+      <div class="form-inline">
+        <div class="input-group mb-2 mr-sm-2" style="width: 100%">
+          <div class="input-group-prepend">
+            <div class="input-group-text">주문자 이름</div>
+          </div>
+          <input type="text" class="form-control" id="inlineFormInputGroupCustomerName">
+        </div>
+        <div class="input-group mb-2 mr-sm-2" style="width: 100%">
+          <div class="input-group-prepend">
+            <div class="input-group-text">수량</div>
+          </div>
+          <select class="custom-select" required>
+            <option value="">--수량을 입력하세요--</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </select>  
+        </div>
+        <div class="input-group mb-2 mr-sm-2" style="width: 100%">
+          <div class="input-group-prepend">
+            <div class="input-group-text">주소</div>
+          </div>
+          <input type="text" class="form-control" id="inlineFormInputGroupAddress">
+        </div>
+        <div class="input-group mb-2 mr-sm-2" style="width: 100%">
+          <div class="input-group-prepend">
+            <div class="input-group-text">전화번호</div>
+          </div>
+          <input type="text" class="form-control" id="inlineFormInputGroupPhoneNumber">
+        </div>
+      </div>
+     
+      <button type="submit" class="btn btn-primary btn-center">주문하기</button>
+    </div>
+      
+  
+    
+    
+    </div>
+  </div>  
+</body>
+
+</html>
+
